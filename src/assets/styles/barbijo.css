@@ -10,13 +10,15 @@ body{
 }
 .imagen_1 {
   float: right;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 15px 15px 15px 15px;
 }
 
-.info{
+.infob1{
   float:right;
+  background-color: #D8DEE9;
+  border-radius: 15px 15px 15px 15px;
 }
 
-.info2{
+.infob2{
   float: left;
 }
