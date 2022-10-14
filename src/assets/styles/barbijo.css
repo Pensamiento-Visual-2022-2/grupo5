@@ -8,17 +8,25 @@ body{
   float: right;
   margin: 50px -30px;
 }
-.imagen_1 {
-  float: right;
-  border-radius: 15px 15px 15px 15px;
+.imgb1 {
+  border-radius: 15%;
+  margin: 0px 400px;
 }
 
 .infob1{
-  float:right;
+  float:left;
   background-color: #D8DEE9;
   border-radius: 15px 15px 15px 15px;
+  margin: 5px 30px 0px ;
+  
 }
 
 .infob2{
   float: left;
+  background-color: #D8DEE9;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.imgb2 {
+  border-radius: 50%;
 }
