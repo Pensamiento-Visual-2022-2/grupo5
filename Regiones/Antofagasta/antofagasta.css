@@ -94,7 +94,7 @@ body{
     height: 150px;
     position: relative;
     right:-125px;
-    top:-630px;
+    top:-605px;
     z-index: 1;
 }
 
@@ -175,10 +175,12 @@ body{
     width: 1000px;
     padding: 100 px;
     font-family: 'Verdana';
+    position: relative;
+    left: 50px;
 }
 
 .RegionA{
-    font-size: 300%;
+    font-size: 250%;
 
 }
 
@@ -188,10 +190,12 @@ body{
 }
 
 .Centros{
-    width: 900px;
+    width: 700px;
     border: 3px solid white;
     border-radius: 10px;
     background: #D8DEE9;
+    position: relative;
+    left: 180px;
 }
 
 .pinguins{
