@@ -76,15 +76,57 @@ var regiones_json = [
         nombre: "Región de Atacama",
         capital: "Copiapó",
         pinguino: ["Magallanes", "Humboldt"],
-        centro: ["Tocopilla", "Península de Mejillones", "Taltal"],
-        link: ["https://goo.gl/maps/6UFVvAz2LfcL2Sw59", "https://goo.gl/maps/ngt4YgVrxzTsJaM87", "https://goo.gl/maps/yMZ8itcrScc2bPneA"]
+        centro: ["Isla Chañaral", "Reserva Nacional Pingüino de Humboldt"],
+        link: ["https://goo.gl/maps/NakzggFJ2d6s7sco6", "https://goo.gl/maps/V6xoxWFkoDZrohrk6"]
     },
     {
         nombre: "Región de Coquimbo",
         capital: "La Serena",
+        pinguino: ["Magallanes", "Humboldt", "Penacho Amarillo"],
+        centro: ["Reserva Nacional Pingüino de Humboldt", "Islas Dama", "Isla Choros"],
+        link: ["https://goo.gl/maps/V6xoxWFkoDZrohrk6", "https://goo.gl/maps/AKMaAUFHTBGE4JAh9", "https://goo.gl/maps/eoiacqThafMPiaGq6"],
+    },
+    {
+        nombre: "Región de Valparaíso",
+        capital: "Valparaíso",
+        pinguino: ["Magallanes", "Humboldt", "Rey", "Penacho Amarillo"],
+        centro: ["Monumento Natural Isla Cachagua", "Islote Pájaros  Niños", "Algarrobo"],
+        link: ["https://goo.gl/maps/VuAajMpRqh61xGmy5", "https://goo.gl/maps/WZi6bNu1nwrQ3Nuz6", "https://goo.gl/maps/eimpuVzSd483w4MDA"],
+    },
+    {
+        nombre: "Región Metropolitana",
+        capital: "Santiago",
+        pinguino: ["Humboldt"],
+        centro: ["Zoológico Metropolitano de Santiago", "Buinzoo"],
+        link: ["https://goo.gl/maps/1QoWrnQ6nnpcNdhHA","https://goo.gl/maps/AUjbNK9KQZPEdN6Z9"],
+    },
+    {
+        nombre: "Región del Libertador General Bernardo Ohiggins",
+        capital: "Rancagua",
+        pinguino: ["Magallanes", "Humboldt", "Rey"],
+        centro: ["Isla de Pupuya", "Pichilemu"],
+        link: ["https://goo.gl/maps/7BuB1oKebPWrsWnQA", "https://goo.gl/maps/wXF3pva8sZHWhytZ8"],
+    },
+    {
+        nombre: "Región del Maule",
+        capital: "Talca",
+        pinguino: ["Magallanes", "Humboldt", "Rey"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región Ñuble",
+        capital: "Chillán",
         pinguino: ["Magallanes", "Humboldt"],
-        centro: ["Reserva Nacional Pingüino de Humboldt", "Islas Dama"],
-        link: ["https://goo.gl/maps/V6xoxWFkoDZrohrk6", "https://goo.gl/maps/AKMaAUFHTBGE4JAh9"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región del Bio-Bio",
+        capital: "Concepción",
+        pinguino: ["Magallanes", "Humboldt"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
     },
     
 ];
