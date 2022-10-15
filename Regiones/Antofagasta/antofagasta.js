@@ -204,5 +204,3 @@ var regiones_json = [
     },
     
 ];
-
-
