@@ -91,10 +91,11 @@ body{
 
 .div-mapa{
     margin: auto;
-    width: 1500px;
-    height: 850px;
+    width: 700px;
+    height: 150px;
     position: relative;
-    left:-165px;
+    right:-200px;
+    top:-600px;
     z-index: 1;
 }
 
@@ -109,6 +110,7 @@ body{
 }
 
 .ANTOFACOLOR path{
+    /* CAMBIAR COLOR, SOLAMENTE ESTABA PROBANDO */
     stroke: #3263c5;
     fill: #1f64e2;
 }
