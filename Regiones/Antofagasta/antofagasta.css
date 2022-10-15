@@ -183,27 +183,12 @@ body{
 
 .Centros{
     width: 900px;
-    background: #D8DEE9;
     border: 3px solid white;
     border-radius: 10px;
-
+    background: #D8DEE9;
 }
 
-.container-flex{
-    display: flex;
-    margin: auto;
-}
-
-header img{
-    width: 1000px;
-}
-
-.ifchile{
-    width: 700px;
-    height: 850px;
-}
-
-.div-pinguinos{
+.pinguins{
     width: 1000px;
     border-radius: 15px 15px 15px 15px;
     position: relative;
@@ -211,20 +196,17 @@ header img{
     z-index: 2;
 }
 
-.div-pinguinos img {
+.pinguns img {
     /* transform: scale(1.15); */
     border-radius: 15px 15px 15px 15px;
 }
 
-.div-pinguinos a:hover img {
+.pinguins a:hover img {
     transform: scale(1.15);
     border-radius: 15px 15px 15px 15px;
 }
 
-.container-index a:hover img {
-    transform: scale(1.15);
-}
 
-.zoom{
+.zoom1{
     border-radius: 15px 15px 15px 15px;
 }
