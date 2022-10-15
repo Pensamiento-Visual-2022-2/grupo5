@@ -26,9 +26,8 @@ body{
     margin-bottom: 0px;
 }
 
-.imagen-inicial{
-    height: 600px;
-    width: 800px;
+.imageninicio{
+    width: 1000px;
 }
 
 .rueda-imagenes{
@@ -91,11 +90,11 @@ body{
 
 .div-mapa{
     margin: auto;
-    width: 700px;
+    width: 750px;
     height: 150px;
     position: relative;
-    right:-200px;
-    top:-600px;
+    right:-125px;
+    top:-630px;
     z-index: 1;
 }
 
@@ -111,8 +110,8 @@ body{
 
 .ANTOFACOLOR path{
     /* CAMBIAR COLOR, SOLAMENTE ESTABA PROBANDO */
-    stroke: #3263c5;
-    fill: #1f64e2;
+    stroke: #4c566a;
+    fill: #4c566a;
 }
 
 .navegacion{
@@ -217,3 +216,4 @@ body{
 .zoom1{
     border-radius: 15px 15px 15px 15px;
 }
+
