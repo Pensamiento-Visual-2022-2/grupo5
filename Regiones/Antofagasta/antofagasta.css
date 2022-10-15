@@ -95,7 +95,7 @@ body{
     position: relative;
     right:-125px;
     top:-605px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .div-mapa path {
@@ -120,8 +120,9 @@ body{
     background: #fff;
 }
 
-.navegacion ul{
+.Centros ul{
     list-style: none;
+    list-style-position: outside;
 }
 
 .menu > li{
@@ -192,21 +193,30 @@ body{
 .Centros{
     width: 700px;
     border: 3px solid white;
-    border-radius: 10px;
+    border-radius: 20px;
     background: #D8DEE9;
     position: relative;
     left: 180px;
 }
 
+.navegacion ul{
+    list-style: circle;
+}
+
+.titulocentros{
+    font-size: 120%;
+}
+
 .pinguins{
     width: 1000px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     position: relative;
-    right: -129px;
+    right: -50px;
+    top: 10px;
     z-index: 2;
 }
 
-.pinguns img {
+.pinguins img {
     /* transform: scale(1.15); */
     border-radius: 15px 15px 15px 15px;
 }
