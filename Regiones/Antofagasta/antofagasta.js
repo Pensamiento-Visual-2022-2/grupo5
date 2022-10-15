@@ -48,6 +48,45 @@ datos.innerHTML = nombres[1]
 
 */
 
+var epoca_pinguinos = [
+    {
+        pinguino:"Magallanes",
+        epoca: [1,2,3,4],
+    },
+    {
+        pinguino:"Humboldt",
+        epoca: [1,2,3,4],
+    },
+    {
+        pinguino:"Rey",
+        epoca: [1,2,3,4],
+    },
+    {
+        pinguino:"Emperador",
+        epoca: [2],
+    },
+    {
+        pinguino:"Macaroni",
+        epoca: [1,4],
+    },
+    {
+        pinguino:"Penacho Amarillo",
+        epoca: [1,4],
+    },
+    {
+        pinguino:"Papua",
+        epoca: [1,4],
+    },
+    {
+        pinguino:"Adelia",
+        epoca: [1,2],
+    },
+    {
+        pinguino:"Barbijo",
+        epoca: [1,2,3],
+    },
+];
+
 
 var regiones_nombre = ["Arica y Parinacota", "Tarapacá", "Antofagasta", "Atacama", "Coquimbo", "Valparaíso", "Región Metropolitana", "Libertador General Bernardo OHiggins", "Maule", "Ñuble", "Bio-Bio", "Araucanía", "Los Ríos", "Los Lagos", "Áysen", "Magallanes y de la Antártica Chilena"];
 var regiones_json = [
@@ -124,6 +163,41 @@ var regiones_json = [
     {
         nombre: "Región del Bio-Bio",
         capital: "Concepción",
+        pinguino: ["Magallanes", "Humboldt"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región de la Araucanía",
+        capital: "Temuco",
+        pinguino: ["Magallanes", "Humboldt"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región de los Ríos",
+        capital: "Valdivia",
+        pinguino: ["Magallanes", "Humboldt"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región de los Lagos",
+        capital: "Puerto Montt",
+        pinguino: ["Magallanes", "Humboldt"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región de Aysén",
+        capital: "Coyhaique",
+        pinguino: ["Magallanes", "Humboldt"],
+        centro: ["Pelluhue", "Curanipe"],
+        link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
+    },
+    {
+        nombre: "Región de Magallanes y la Antártida Chilena",
+        capital: "Punta Arenas",
         pinguino: ["Magallanes", "Humboldt"],
         centro: ["Pelluhue", "Curanipe"],
         link: ["https://goo.gl/maps/KZ3LVk3RNuFvkbz28", "https://goo.gl/maps/rMa9ao5awwxpuEcm8"],
