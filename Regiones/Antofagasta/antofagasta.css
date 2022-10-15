@@ -108,6 +108,11 @@ body{
     fill: #4c566a;
 }
 
+.ANTOFACOLOR path{
+    stroke: #3263c5;
+    fill: #1f64e2;
+}
+
 .navegacion{
     width: 1000px;
     margin: 30px auto;
