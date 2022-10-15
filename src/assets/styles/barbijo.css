@@ -8,12 +8,15 @@ body{
   float: right;
   margin: 10px 10px;
   width: 95%;
+  
 }
-.imgb1 img{
+
+
+#imgb1 img{
   border-radius: 15px;
   position: relative;
   top: -20px;
-  width: 600px;
+  width: 570px;
   margin: 20px;
 }
 
@@ -26,7 +29,7 @@ body{
   font-size: 150%;
 }
 
-.infob1{
+#infob1{
   float:left;
   background-color: #D8DEE9;
   border-radius: 15px;
@@ -37,18 +40,18 @@ body{
   color: #3b4252;
 }
   
-.infob2{
+#infob2{
   background-color: #D8DEE9;
   border-radius: 15px;
-  padding: 15px;
+  padding: 15px 15px 15px 15px;
   border: 15px 15px;
   font-size: 150%;
-  width: 39%;
+  width: 500px;
   color: #3b4252;
-  margin: 40px 60px;
+  
 }
 
-.imgb2 img {
+#imgb2 img {
   width: 300px;
   border-radius: 50%;
 }

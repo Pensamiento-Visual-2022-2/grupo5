@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'HelveticaNeue';
     font-style: normal;
@@ -10,6 +11,101 @@ body{
     margin: auto;
     background-color: #eceff4;
     text-align: center;
+}
+
+/* Index.html */
+.container-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 500%;
+    color: #81a1c1;
+    margin-bottom: 0px;
+}
+
+.imagen-inicial{
+    height: 600px;
+    width: 800px;
+}
+
+.rueda-imagenes{
+    width: 25%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.rueda-imagenes ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: cambio 20s infinite;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    40% {margin-left: 0%;}
+
+    50% {margin-left: -100%;}
+    90% {margin-left: -100%;}
+}
+
+.rueda-imagenes li{
+    width: 100%;
+    list-style: none;
+}
+
+.rueda-imagenes img {
+    width: 100%;
+}
+
+.titulo-2{
+    font-size: 300%;
+    color: #d08770;
+    margin-bottom: 0px;
+}
+
+.palito{
+    height: 5px;
+    width: 200px;
+    background-color: #d08770;
+    margin-bottom: 50px;
+}
+
+.texto-index{
+    font-size: 200%;
+    width: 70%;
+    color: #3b4252;
+}
+
+.boton-index{
+    height: 200px;
+    width: 400px;
+}
+
+
+/* Chile.html */
+
+.div-mapa{
+    margin: auto;
+    width: 1500px;
+    height: 850px;
+    position: relative;
+    left:-165px;
+    z-index: 1;
+}
+
+.div-mapa path {
+    fill: #D8DEE9;
+    stroke: #88c0d0;
+    stroke-width: 2px;
+}
+
+.div-mapa :hover {
+    fill: #4c566a;
 }
 
 .navegacion{
@@ -64,4 +160,47 @@ body{
     visibility: visible;
     opacity: 1;
 
+
+}
+
+/* intro.html */
+
+.container-flex{
+    display: flex;
+    margin: auto;
+}
+
+header img{
+    width: 1000px;
+}
+
+.ifchile{
+    width: 700px;
+    height: 850px;
+}
+
+.div-pinguinos{
+    width: 1000px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    right: -129px;
+    z-index: 2;
+}
+
+.div-pinguinos img {
+    /* transform: scale(1.15); */
+    border-radius: 15px 15px 15px 15px;
+}
+
+.div-pinguinos a:hover img {
+    transform: scale(1.15);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.container-index a:hover img {
+    transform: scale(1.15);
+}
+
+.zoom{
+    border-radius: 15px 15px 15px 15px;
 }
