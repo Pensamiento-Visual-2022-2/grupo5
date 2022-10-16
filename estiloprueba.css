@@ -733,10 +733,11 @@ z-index: 3;
 
 
 .circulito_r1{
+     /*VALPO*/
     background-color: #fbeb3c;
     position: relative;
-    right: 0px;
-    top: 740px;
+    right: 670px;
+    top: 510px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -744,10 +745,11 @@ z-index: 3;
 }
 
 .circulito_r2{
+     /*OHIGGINS*/
     background-color: #fbeb3c;
     position: relative;
-    right: -103px;
-    top: 780px;
+    right: 700px;
+    top: 565px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -755,10 +757,11 @@ z-index: 3;
 }
 
 .circulito_r3{
+     /* MAULE*/
     background-color: #fbeb3c;
     position: relative;
-    right: -149px;
-    top: 805px;
+    right: 725px;
+    top: 595px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -767,10 +770,11 @@ z-index: 3;
 
 
 .circulito_r4{
+     /*MAGALLANES*/
     background-color: #fbeb3c;
     position: relative;
-    right: -150px;
-    top: 800px;
+    right: 700px;
+    top: 1400px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
