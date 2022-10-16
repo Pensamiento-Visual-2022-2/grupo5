@@ -129,7 +129,7 @@ body{
 .menu > li{
     position: relative;
     display: inline-block;
-    z-index: 3;
+    z-index: 10;
 
 }
 
@@ -798,6 +798,7 @@ z-index: 3;
 .holiwis{
     background-color: #5e81ac; /* Green */
     border: none;
+    cursor: pointer;
     color: white;
 }
 
