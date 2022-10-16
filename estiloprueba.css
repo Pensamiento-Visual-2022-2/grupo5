@@ -226,7 +226,7 @@ header img{
 .circulito{
     background-color: #9b23b3;
     position: relative;
-    right: -10px;
+    right: -20px;
     top: 1370px;
     width: 15px;
     height: 15px;
@@ -237,7 +237,7 @@ header img{
 .circulito_e{
     background-color: #ccdb3b;
     position: relative;
-    right: 0px;
+    right: -10px;
     top: 1340px;
     width: 15px;
     height: 15px;
@@ -663,7 +663,7 @@ z-index: 3;
 .circulito_pa{
     background-color: #089386;
     position: relative;
-    right: 430px;
+    right: 500px;
     top: 1330px;
     width: 15px;
     height: 15px;
@@ -674,7 +674,7 @@ z-index: 3;
 .circulito_pe{
     background-color: #04bbd3;
     position: relative;
-    right: -50px;
+    right: 150px;
     top: 750px;
     width: 15px;
     height: 15px;
