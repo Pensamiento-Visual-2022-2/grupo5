@@ -1,16 +1,16 @@
 
 @font-face {
-    font-family: 'HelveticaNeue1';
+    font-family: 'HelveticaNeue';
     font-style: normal;
     font-weight: normal;
     src: url(../fonts/HelveticaNeue_1.ttc);
 }
 
 body{
-    font-family: 'Verdana';
+    font-family: 'HelveticaNeue';
     margin: auto;
     background-color: #eceff4;
-    /*text-align: center; */
+    text-align: center;
 }
 
 /* Index.html */
@@ -26,11 +26,9 @@ body{
     margin-bottom: 0px;
 }
 
-.imageninicio{
-    width: 1000px;
-    left: 200px;
-    position: relative;
-    
+.imagen-inicial{
+    height: 600px;
+    width: 800px;
 }
 
 .rueda-imagenes{
@@ -68,7 +66,6 @@ body{
     font-size: 300%;
     color: #d08770;
     margin-bottom: 0px;
-    
 }
 
 .palito{
@@ -89,17 +86,21 @@ body{
     width: 400px;
 }
 
+.Pinguinoss{
+    opacity: 0.2;
+}
+
+
 
 /* Chile.html */
 
 .div-mapa{
     margin: auto;
-    width: 750px;
-    height: 150px;
+    width: 1500px;
+    height: 850px;
     position: relative;
-    right:-125px;
-    top:-605px;
-    z-index: -1;
+    left:-165px;
+    z-index: 1;
 }
 
 .div-mapa path {
@@ -112,18 +113,15 @@ body{
     fill: #4c566a;
 }
 
-.ANTOFACOLOR path{
-    /* CAMBIAR COLOR, SOLAMENTE ESTABA PROBANDO */
-    stroke: #4c566a;
-    fill: #4c566a;
-}
-
 .navegacion{
     width: 1000px;
     margin: 30px auto;
     background: #fff;
 }
 
+.navegacion ul{
+    list-style: none;
+}
 
 .menu > li{
     position: relative;
@@ -136,7 +134,7 @@ body{
     display: block;
     padding: 15px 20px;
     text-decoration: none;
-    font-family: "Verdana";
+    font-family: 'HelveticaNeue';
 }
 
 .menu li a:hover{
@@ -170,90 +168,44 @@ body{
 
 }
 
-.navegacion ul{
-    list-style: none;
-}
-
 /* intro.html */
 
-.TITULOS{
+.container-flex{
+    display: flex;
+    margin: auto;
+}
+
+header img{
     width: 1000px;
-    padding: 100 px;
-    font-family: 'Verdana';
-    position: relative;
-    left: 230px;
 }
 
-.RegionA{
-    font-size: 250%;
-    
-
-
-}
-
-.CapA{
-    font-size: 100%;
-    position: relative;
-    left: 20px;
-
-}
-
-.Centros{
+.ifchile{
     width: 700px;
-    border: 3px solid white;
-    border-radius: 20px;
-    background: #D8DEE9;
-    position: relative;
-    left: 230px;  
-
+    height: 850px;
 }
 
-
-.Centros ul li{
-    left: 10px;
-
-   
-}
-
-
-.navegacion ul{
-    list-style: circle;
-}
-
-
-.descripcion{
-    position: relative;
-    bottom: 180px;
-    left: 250px;
-}
-
-.pinguins{
+.div-pinguinos{
     width: 1000px;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
     position: relative;
-    left: 350px;
-    top: 250px;
+    right: -129px;
     z-index: 2;
 }
 
-.pinguins img {
+.div-pinguinos img {
     /* transform: scale(1.15); */
     border-radius: 15px 15px 15px 15px;
 }
 
-.pinguins a:hover img {
+.div-pinguinos a:hover img {
     transform: scale(1.15);
     border-radius: 15px 15px 15px 15px;
 }
 
+.container-index a:hover img {
+    transform: scale(1.15);
+}
 
-.zoom1{
+.zoom{
     border-radius: 15px 15px 15px 15px;
 }
-
-.pinguinoregion{
-    position: relative;
-    bottom: 180px;
-    left: 250px;
-}
-

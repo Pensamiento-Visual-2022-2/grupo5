@@ -20,6 +20,10 @@ body{
     align-items: center;
 }
 
+.Pinguinosss{
+    opacity: 0.2;
+}
+
 .titulo{
     font-size: 500%;
     color: #81a1c1;
@@ -74,6 +78,11 @@ body{
     background-color: #d08770;
     margin-bottom: 50px;
 }
+
+.Pinguinosss{
+    opacity: 0.2;
+}
+
 
 .texto-index{
     font-size: 200%;

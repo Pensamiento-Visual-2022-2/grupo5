@@ -48,6 +48,7 @@ datos.innerHTML = nombres[1]
 
 */
 
+
 var epoca_pinguinos = [
     {
         pinguino:"Magallanes",
@@ -204,3 +205,12 @@ var regiones_json = [
     },
     
 ];
+
+function cambiar(){
+    document.getElementById("holass").classList.add ("Pinguinoss");
+};
+
+document.getElementById("prueba").onclick = function (){
+    cambiar();
+};
+
