@@ -129,6 +129,7 @@ body{
     position: relative;
     display: inline-block;
     z-index: 3;
+    
 
 }
 
@@ -137,6 +138,7 @@ body{
     padding: 15px 20px;
     text-decoration: none;
     font-family: "Verdana";
+    
 }
 
 .menu li a:hover{
@@ -194,7 +196,9 @@ body{
 .CapA{
     font-size: 100%;
     position: relative;
-    left: 20px;
+    left: 50px;
+    opacity: 0.6;
+
 
 }
 
@@ -204,7 +208,8 @@ body{
     border-radius: 20px;
     background: #D8DEE9;
     position: relative;
-    left: 230px;  
+    left: 230px; 
+    top: 430px; 
 
 }
 
@@ -221,24 +226,19 @@ body{
 }
 
 
-.descripcion{
-    position: relative;
-    bottom: 180px;
-    left: 250px;
-}
-
 .pinguins{
     width: 1000px;
     border-radius: 15px;
     position: relative;
-    left: 350px;
-    top: 250px;
+    left: 400px;
+    bottom: 10px;
     z-index: 2;
 }
 
 .pinguins img {
     /* transform: scale(1.15); */
     border-radius: 15px 15px 15px 15px;
+    margin-left: 70px;
 }
 
 .pinguins a:hover img {
@@ -253,7 +253,12 @@ body{
 
 .pinguinoregion{
     position: relative;
-    bottom: 180px;
+    bottom: 380px;
     left: 250px;
 }
 
+.descripcion{
+    position: relative;
+    bottom: 380px;
+    left: 250px;
+}

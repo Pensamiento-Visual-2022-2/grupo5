@@ -206,11 +206,72 @@ var regiones_json = [
     
 ];
 
+
 function cambiar(){
-    document.getElementById("holass").classList.add ("Pinguinoss");
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.remove("Pinguinoss");
+    document.getElementById("holass2").classList.remove("Pinguinoss");
+    document.getElementById("holass3").classList.remove("Pinguinoss");
+    document.getElementById("holass4").classList.remove("Pinguinoss");
+    document.getElementById("holass5").classList.remove("Pinguinoss");
+    document.getElementById("holass6").classList.remove("Pinguinoss");
+    document.getElementById("holass0").classList.remove("Pinguinoss");
+    document.getElementById("holass-1").classList.remove("Pinguinoss");
 };
+
+function cambiar2(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.remove("Pinguinoss");
+    document.getElementById("holass5").classList.remove("Pinguinoss");
+    document.getElementById("holass6").classList.remove("Pinguinoss");
+    document.getElementById("holass0").classList.remove("Pinguinoss");
+    document.getElementById("holass-1").classList.remove("Pinguinoss");
+
+};
+
+function cambiar3(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.remove("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.remove("Pinguinoss");
+    document.getElementById("holass6").classList.remove("Pinguinoss");
+    document.getElementById("holass0").classList.remove("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+
+};
+
+
+function cambiar4(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.remove("Pinguinoss");
+    document.getElementById("holass2").classList.remove("Pinguinoss");
+    document.getElementById("holass3").classList.remove("Pinguinoss");
+    document.getElementById("holass4").classList.remove("Pinguinoss");
+    document.getElementById("holass5").classList.remove("Pinguinoss");
+    document.getElementById("holass6").classList.remove("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+
+};
+
 
 document.getElementById("prueba").onclick = function (){
     cambiar();
 };
 
+document.getElementById("prueba2").onclick = function (){
+    cambiar2();
+};
+
+document.getElementById("prueba1").onclick = function (){
+    cambiar3();
+};
+
+document.getElementById("prueba0").onclick = function (){
+    cambiar4();
+};

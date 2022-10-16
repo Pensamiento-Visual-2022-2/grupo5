@@ -206,10 +206,22 @@ var regiones_json = [
     
 ];
 
-function cambia(){
-    document.getElementById("holasss").classList.add ("Pinguinosss");
+function cambiar(){
+    document.getElementById("holass").classList.add("Pinguinoss");
 };
 
+function cambiar2(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+};
+
+
 document.getElementById("prueba").onclick = function (){
-    cambia();
+    cambiar();
+};
+
+document.getElementById("prueba2").onclick = function (){
+    cambiar2();
 };
