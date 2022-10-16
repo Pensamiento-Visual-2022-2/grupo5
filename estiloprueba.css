@@ -246,10 +246,11 @@ header img{
 }
 
 .circulito_h{
+    /*ARICA*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 700px;
+    right: -9px;
+    top: 35px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -257,10 +258,11 @@ header img{
 }
 
 .circulito_h1{
+        /*TARAPACA*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 600px;
+    right: 5px;
+    top: 60px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -268,10 +270,11 @@ header img{
 }
 
 .circulito_h2{
+        /*ANTOFA*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 500px;
+    right: 35px;
+    top: 180px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -279,10 +282,11 @@ header img{
 }
 
 .circulito_h3{
+        /*ATACAMA*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 400px;
+    right: 47px;
+    top: 269px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -290,10 +294,11 @@ header img{
 }
 
 .circulito_h4{
+        /*COQUIMBO*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 200px;
+    right: 100px;
+    top: 427px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -301,10 +306,11 @@ header img{
 }
 
 .circulito_h5{
+        /*VALPO*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 450px;
+    right: 110px;
+    top: 500px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -312,10 +318,11 @@ header img{
 }
 
 .circulito_h6{
+        /*METROPOLITANA*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 550px;
+    right: 100px;
+    top: 535px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -323,10 +330,11 @@ header img{
 }
 
 .circulito_h7{
+        /*OHHIGINS*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 650px;
+    right: 158px;
+    top: 570px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -334,10 +342,11 @@ header img{
 }
 
 .circulito_h8{
+        /*MAULE*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 750px;
+    right: 190px;
+    top: 615px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -345,10 +354,11 @@ header img{
 }
 
 .circulito_h9{
+        /*ÑUBLE+ BIOBIO*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 350px;
+    right: 219px;
+    top: 665px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -356,10 +366,11 @@ header img{
 }
 
 .circulito_h10{
+     /*ÑUBLE+ BIOBIO 2*/
     background-color: #f34434;
     position: relative;
-    right: -570px;
-    top: 770px;
+    right: 255px;
+    top: 685px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -367,10 +378,11 @@ header img{
 }
 
 .circulito_h11{
+     /*ARAUCANIA*/
     background-color: #f34434;
     position: relative;
-    right: -500px;
-    top: 630px;
+    right: 255px;
+    top: 743px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -378,10 +390,11 @@ header img{
 }
 
 .circulito_h12{
+     /*RIOS*/
     background-color: #f34434;
     position: relative;
-    right: -570px;
-    top: 480px;
+    right: 285px;
+    top: 785px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -389,10 +402,11 @@ header img{
 }
 
 .circulito_h13{
+     /*LAGOS*/
     background-color: #f34434;
     position: relative;
-    right: -570px;
-    top: 380px;
+    right: 280px;
+    top: 880px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -400,10 +414,11 @@ header img{
 }
 
 .circulito_h14{
+     /*AYSEN*/
     background-color: #f34434;
     position: relative;
-    right: -570px;
-    top: 700px;
+    right: 305px;
+    top: 995px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
