@@ -672,10 +672,11 @@ z-index: 3;
 }
 
 .circulito_pe{
+     /*COQUIMB0*/
     background-color: #04bbd3;
     position: relative;
-    right: 150px;
-    top: 750px;
+    right: 580px;
+    top: 360px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -683,10 +684,11 @@ z-index: 3;
 }
 
 .circulito_pe1{
+     /*VALPO*/
     background-color: #04bbd3;
     position: relative;
-    right: -40px;
-    top: 740px;
+    right: 600px;
+    top: 485px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -694,10 +696,11 @@ z-index: 3;
 }
 
 .circulito_pe2{
+     /*LAGOS*/
     background-color: #04bbd3;
     position: relative;
-    right: -30px;
-    top: 730px;
+    right: 660px;
+    top: 900px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -705,10 +708,11 @@ z-index: 3;
 }
 
 .circulito_pe3{
+     /* AYSEN*/
     background-color: #04bbd3;
     position: relative;
-    right: -20px;
-    top: 720px;
+    right: 690px;
+    top: 985px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -716,10 +720,11 @@ z-index: 3;
 }
 
 .circulito_pe4{
+     /* MAGALLANES*/
     background-color: #04bbd3;
     position: relative;
-    right: -10px;
-    top: 730px;
+    right: 650px;
+    top: 1397px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
