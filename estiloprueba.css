@@ -99,7 +99,7 @@ body{
 .div-mapa{
     width: 1300px;
     position: absolute;
-    left:-455px;
+    left:-520px;
     z-index: 1;
 }
 
@@ -237,8 +237,8 @@ header img{
 .circulito_e{
     background-color: #ccdb3b;
     position: relative;
-    right: -570px;
-    top: 830px;
+    right: 0px;
+    top: 1340px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -412,9 +412,9 @@ header img{
 
 .circulito_mac{
     background-color: #4cab53;
-    position: absolute;
-    left: 780px;
-    top: 700px;
+    position: relative;
+    right: 200px;
+    top: 1370px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -422,10 +422,11 @@ header img{
 }
 
 .circulito_mag{
+    /*MAGALLANES EN MAGALLANES*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 750px;
+    right: 250px;
+    top: 1382px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -433,10 +434,11 @@ header img{
 }
 
 .circulito_mag1{
+    /* ARICA*/
     background-color: #fb9a04;
     position: relative;
-    right: -50px;
-    top: 780px;
+    right: 265px;
+    top: 25px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -444,10 +446,11 @@ header img{
 }
 
 .circulito_mag2{
+    /* ANTOFA*/
     background-color: #fb9a04;
     position: relative;
-    right: -15px;
-    top: 770px;
+    right: 280px;
+    top: 170px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -455,10 +458,11 @@ header img{
 }
 
 .circulito_mag3{
+    /* ANTOFA*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 768px;
+    right: 305px;
+    top: 256px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -466,10 +470,11 @@ header img{
 }
 
 .circulito_mag4{
+    /* ATACAMA 1*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 680px;
+    right: 345px;
+    top: 370px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -477,10 +482,11 @@ header img{
 }
 
 .circulito_mag5{
+    /* ATACAMA 2*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 700px;
+    right: 340px;
+    top: 280px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -488,10 +494,11 @@ header img{
 }
 
 .circulito_mag6{
+    /* COQU 1*/
     background-color: #fb9a04;
     position: relative;
-    right: -7px;
-    top: 710px;
+    right: 380px;
+    top: 417px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -499,10 +506,11 @@ header img{
 }
 
 .circulito_mag7{
+    /* VALPO 1*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 720px;
+    right: 395px;
+    top: 490px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -510,10 +518,11 @@ header img{
 }
 
 .circulito_mag8{
+    /* VALPO 2*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 750px;
+    right: 415px;
+    top: 518px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -521,10 +530,11 @@ header img{
 }
 
 .circulito_mag9{
+        /* OHHIGNIS*/
     background-color: #fb9a04;
     position: relative;
-    right: -30px;
-    top: 780px;
+    right: 439px;
+    top: 555px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -532,10 +542,11 @@ header img{
 }
 
 .circulito_mag10{
+        /* MAULE*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 750px;
+    right: 475px;
+    top: 605px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -543,10 +554,11 @@ header img{
 }
 
 .circulito_mag11{
+        /* ÑUBLE (bIOBIO PQ NO ESTA ÑUBLE*/
     background-color: #fb9a04;
     position: relative;
-    right: -5px;
-    top: 770px;
+    right: 510px;
+    top: 650px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -554,10 +566,11 @@ header img{
 }
 
 .circulito_mag12{
+        /* BIOBIO*/
     background-color: #fb9a04;
     position: relative;
-    right: 0px;
-    top: 780px;
+    right: 540px;
+    top: 675px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -565,10 +578,11 @@ header img{
 }
 
 .circulito_mag13{
+        /* ARAUCANIA*/
     background-color: #fb9a04;
     position: relative;
-    right: -10px;
-    top: 750px;
+    right: 550px;
+    top: 727px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -576,13 +590,66 @@ header img{
 }
 
 
+.circulito_mag14{
+    /* ARAUCANIA*/
+background-color: #fb9a04;
+position: relative;
+right: 560px;
+top: 750px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+z-index: 3;
+}
+
+
+.circulito_mag15{
+    /* LOS RIOS*/
+background-color: #fb9a04;
+position: relative;
+right: 585px;
+top: 775px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+z-index: 3;
+}
+
+
+.circulito_mag16{
+    /* LOS LAGOS*/
+background-color: #fb9a04;
+position: relative;
+right: 620px;
+top: 860px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+z-index: 3;
+}
+
+
+.circulito_mag17{
+    /* AYSEN*/
+background-color: #fb9a04;
+position: relative;
+right: 620px;
+top: 1005px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+z-index: 3;
+}
+
+
+
 
 
 .circulito_pa{
     background-color: #089386;
     position: relative;
-    right: -60px;
-    top: 760px;
+    right: 430px;
+    top: 1330px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
