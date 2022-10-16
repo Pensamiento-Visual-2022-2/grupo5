@@ -204,6 +204,152 @@ header img{
     border-radius: 15px 15px 15px 15px;
 }
 
+
+.circulo{
+    background-color: #3f51b4;
+    position: relative;
+    right: -570px;
+    top: 850px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulo1{
+    background-color: #3f51b4;
+    position: relative;
+    right: -570px;
+    top: 870px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulo2{
+    background-color: #3f51b4;
+    position: relative;
+    right: -570px;
+    top: 855px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito{
+    background-color: #9b23b3;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.circulito1{
+    background-color: #9b23b3;
+    position: relative;
+    right: -570px;
+    top: 843px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito2{
+    background-color: #9b23b3;
+    position: relative;
+    right: -570px;
+    top: 850px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito_e{
+    background-color: #ccdb3b;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito_h{
+    background-color: #f34434;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito_mac{
+    background-color: #4cab53;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito_mag{
+    background-color: #fb9a04;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito_pa{
+    background-color: #089386;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circulito_pe{
+    background-color: #04bbd3;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+
+.circulito_r{
+    background-color: #fbeb3c;
+    position: relative;
+    right: -570px;
+    top: 830px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+
+
 .container-index a:hover img {
     transform: scale(1.15);
 }
