@@ -11,6 +11,7 @@ body{
     margin: auto;
     background-color: #eceff4;
     text-align: center;
+    
 }
 
 /* Index.html */
@@ -117,11 +118,13 @@ body{
     width: 1000px;
     margin: 30px auto;
     background: #fff;
+    border-radius: 15px;
 }
 
 .navegacion ul{
     list-style: none;
 }
+
 
 .menu > li{
     position: relative;
@@ -177,6 +180,7 @@ body{
 
 header img{
     width: 1000px;
+    border-radius: 15px;
 }
 
 .ifchile{
@@ -795,4 +799,10 @@ z-index: 3;
     background-color: #5e81ac; /* Green */
     border: none;
     color: white;
+}
+
+.desaparecer{
+    opacity: 0.2;
+    pointer-events: none; 
+    cursor: default;
 }
