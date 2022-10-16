@@ -802,7 +802,7 @@ z-index: 3;
 }
 
 .desaparecer{
-    opacity: 0.2;
+    opacity: 0;
     pointer-events: none; 
     cursor: default;
 }
