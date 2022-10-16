@@ -88,6 +88,8 @@ body{
 
 .Pinguinoss{
     opacity: 0.2;
+    pointer-events: none; 
+    cursor: default;
 }
 
 
@@ -196,11 +198,6 @@ header img{
     /* transform: scale(1.15); */
     border-radius: 15px 15px 15px 15px;
 }
-
-.Pinguinoss{
-    opacity: 0.2;
-}
-
 
 .div-pinguinos a:hover img {
     transform: scale(1.15);

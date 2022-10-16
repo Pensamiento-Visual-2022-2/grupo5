@@ -214,7 +214,7 @@ function cambiar2(){
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
-    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass").classList.add("Pinguinoss");
 };
 
 

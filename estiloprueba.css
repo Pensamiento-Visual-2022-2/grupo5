@@ -211,3 +211,9 @@ header img{
 .zoom{
     border-radius: 15px 15px 15px 15px;
 }
+
+.holiwis{
+    background-color: #5e81ac; /* Green */
+    border: none;
+    color: white;
+}
