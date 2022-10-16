@@ -206,7 +206,7 @@ var regiones_json = [
     
 ];
 
-
+/*VERANO*/
 function cambiar(){
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
@@ -267,7 +267,7 @@ function cambiar(){
     document.getElementById("rey4").classList.remove("desaparecer");
 
 };
-
+/*OTOÑO*/
 function cambiar2(){
     document.getElementById("holass").classList.remove("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
@@ -328,7 +328,7 @@ function cambiar2(){
     document.getElementById("rey4").classList.remove("desaparecer");
 
 };
-
+/*INVIERNO*/
 function cambiar3(){
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
@@ -390,7 +390,7 @@ function cambiar3(){
 
 };
 
-
+/*Primavera*/
 function cambiar4(){
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
@@ -467,4 +467,595 @@ document.getElementById("prueba1").onclick = function (){
 
 document.getElementById("prueba0").onclick = function (){
     cambiar4();
+};
+
+/*Barbijo*/
+function cambiar5(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.remove("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.remove("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button1").onclick = function (){
+    cambiar5();
+};
+
+/*Emperador*/
+function cambiar6(){
+    document.getElementById("holass").classList.remove("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.remove("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button2").onclick = function (){
+    cambiar6();
+};
+
+
+/*Macaroni*/
+function cambiar7(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.remove("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.remove("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button3").onclick = function (){
+    cambiar7();
+};
+
+
+/*Rey*/
+function cambiar8(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.remove("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.remove("desaparecer");
+    document.getElementById("rey2").classList.remove("desaparecer");
+    document.getElementById("rey3").classList.remove("desaparecer");
+    document.getElementById("rey4").classList.remove("desaparecer");
+};
+
+document.getElementById("button4").onclick = function (){
+    cambiar8();
+};
+
+/*Penacho*/
+function cambiar9(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.remove("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.remove("desaparecer");
+    document.getElementById("penacho1").classList.remove("desaparecer");
+    document.getElementById("penacho2").classList.remove("desaparecer");
+    document.getElementById("penacho3").classList.remove("desaparecer");
+    document.getElementById("penacho4").classList.remove("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button5").onclick = function (){
+    cambiar9();
+};
+
+
+/*Papua*/
+function cambiar10(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.remove("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.remove("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button6").onclick = function (){
+    cambiar10();
+};
+
+
+/*Adelia*/
+function cambiar11(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.remove("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.remove("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button7").onclick = function (){
+    cambiar11();
+};
+
+
+/*Magallanes*/
+function cambiar12(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.add("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.remove("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.add("desaparecer");
+    document.getElementById("humboldt1").classList.add("desaparecer");
+    document.getElementById("humboldt2").classList.add("desaparecer");
+    document.getElementById("humboldt3").classList.add("desaparecer");
+    document.getElementById("humboldt4").classList.add("desaparecer");
+    document.getElementById("humboldt5").classList.add("desaparecer");
+    document.getElementById("humboldt6").classList.add("desaparecer");
+    document.getElementById("humboldt7").classList.add("desaparecer");
+    document.getElementById("humboldt8").classList.add("desaparecer");
+    document.getElementById("humboldt9").classList.add("desaparecer");
+    document.getElementById("humboldt10").classList.add("desaparecer");
+    document.getElementById("humboldt11").classList.add("desaparecer");
+    document.getElementById("humboldt12").classList.add("desaparecer");
+    document.getElementById("humboldt13").classList.add("desaparecer");
+    document.getElementById("humboldt14").classList.add("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.remove("desaparecer");
+    document.getElementById("magallanes1").classList.remove("desaparecer");
+    document.getElementById("magallanes2").classList.remove("desaparecer");
+    document.getElementById("magallanes3").classList.remove("desaparecer");
+    document.getElementById("magallanes4").classList.remove("desaparecer");
+    document.getElementById("magallanes5").classList.remove("desaparecer");
+    document.getElementById("magallanes6").classList.remove("desaparecer");
+    document.getElementById("magallanes7").classList.remove("desaparecer");
+    document.getElementById("magallanes8").classList.remove("desaparecer");
+    document.getElementById("magallanes9").classList.remove("desaparecer");
+    document.getElementById("magallanes10").classList.remove("desaparecer");
+    document.getElementById("magallanes11").classList.remove("desaparecer");
+    document.getElementById("magallanes12").classList.remove("desaparecer");
+    document.getElementById("magallanes13").classList.remove("desaparecer");
+    document.getElementById("magallanes14").classList.remove("desaparecer");
+    document.getElementById("magallanes15").classList.remove("desaparecer");
+    document.getElementById("magallanes16").classList.remove("desaparecer");
+    document.getElementById("magallanes17").classList.remove("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button8").onclick = function (){
+    cambiar12();
+};
+
+
+/*Humboldt*/
+function cambiar13(){
+    document.getElementById("holass").classList.add("Pinguinoss");
+    document.getElementById("holass1").classList.remove("Pinguinoss");
+    document.getElementById("holass2").classList.add("Pinguinoss");
+    document.getElementById("holass3").classList.add("Pinguinoss");
+    document.getElementById("holass4").classList.add("Pinguinoss");
+    document.getElementById("holass5").classList.add("Pinguinoss");
+    document.getElementById("holass6").classList.add("Pinguinoss");
+    document.getElementById("holass0").classList.add("Pinguinoss");
+    document.getElementById("holass-1").classList.add("Pinguinoss");
+    /*AHORA PUNTOS*/
+    document.getElementById("barbijo").classList.add("desaparecer");
+    document.getElementById("adelia").classList.add("desaparecer");
+    document.getElementById("emperador").classList.add("desaparecer");
+    document.getElementById("humboldt").classList.remove("desaparecer");
+    document.getElementById("humboldt1").classList.remove("desaparecer");
+    document.getElementById("humboldt2").classList.remove("desaparecer");
+    document.getElementById("humboldt3").classList.remove("desaparecer");
+    document.getElementById("humboldt4").classList.remove("desaparecer");
+    document.getElementById("humboldt5").classList.remove("desaparecer");
+    document.getElementById("humboldt6").classList.remove("desaparecer");
+    document.getElementById("humboldt7").classList.remove("desaparecer");
+    document.getElementById("humboldt8").classList.remove("desaparecer");
+    document.getElementById("humboldt9").classList.remove("desaparecer");
+    document.getElementById("humboldt10").classList.remove("desaparecer");
+    document.getElementById("humboldt11").classList.remove("desaparecer");
+    document.getElementById("humboldt12").classList.remove("desaparecer");
+    document.getElementById("humboldt13").classList.remove("desaparecer");
+    document.getElementById("humboldt14").classList.remove("desaparecer");
+    document.getElementById("macaroni").classList.add("desaparecer");
+    document.getElementById("magallanes").classList.add("desaparecer");
+    document.getElementById("magallanes1").classList.add("desaparecer");
+    document.getElementById("magallanes2").classList.add("desaparecer");
+    document.getElementById("magallanes3").classList.add("desaparecer");
+    document.getElementById("magallanes4").classList.add("desaparecer");
+    document.getElementById("magallanes5").classList.add("desaparecer");
+    document.getElementById("magallanes6").classList.add("desaparecer");
+    document.getElementById("magallanes7").classList.add("desaparecer");
+    document.getElementById("magallanes8").classList.add("desaparecer");
+    document.getElementById("magallanes9").classList.add("desaparecer");
+    document.getElementById("magallanes10").classList.add("desaparecer");
+    document.getElementById("magallanes11").classList.add("desaparecer");
+    document.getElementById("magallanes12").classList.add("desaparecer");
+    document.getElementById("magallanes13").classList.add("desaparecer");
+    document.getElementById("magallanes14").classList.add("desaparecer");
+    document.getElementById("magallanes15").classList.add("desaparecer");
+    document.getElementById("magallanes16").classList.add("desaparecer");
+    document.getElementById("magallanes17").classList.add("desaparecer");
+    document.getElementById("papua").classList.add("desaparecer");
+    document.getElementById("penacho").classList.add("desaparecer");
+    document.getElementById("penacho1").classList.add("desaparecer");
+    document.getElementById("penacho2").classList.add("desaparecer");
+    document.getElementById("penacho3").classList.add("desaparecer");
+    document.getElementById("penacho4").classList.add("desaparecer");
+    document.getElementById("rey1").classList.add("desaparecer");
+    document.getElementById("rey2").classList.add("desaparecer");
+    document.getElementById("rey3").classList.add("desaparecer");
+    document.getElementById("rey4").classList.add("desaparecer");
+};
+
+document.getElementById("button9").onclick = function (){
+    cambiar13();
 };
