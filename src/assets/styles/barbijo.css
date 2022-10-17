@@ -32,9 +32,11 @@ body{
 }
 
 .rueda-imagenes{
-  width: 25%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
+  position: relative;
+  top: 10px;
 }
 
 .rueda-imagenes ul {
