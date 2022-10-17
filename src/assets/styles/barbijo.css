@@ -30,7 +30,7 @@ body{
   left: 30px;
   
 }
-.rueda-imagenes{
+
 .rueda-imagenes{
   width: 25%;
   margin: auto;
@@ -41,7 +41,25 @@ body{
   display: flex;
   padding: 0;
   width: 200%;
-  animation: cambio 20s infinite;
+
+  animation: cambio 10s infinite;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0%;}
+  40% {margin-left: 0%;}
+
+  50% {margin-left: -100%;}
+  90% {margin-left: -100%;}
+}
+
+.rueda-imagenes li{
+  width: 100%;
+  list-style: none;
+}
+
+.rueda-imagenes img {
+  width: 100%;
 }
 
 .nb{font-size: 450%;
@@ -49,7 +67,7 @@ body{
   margin-bottom: 0px;}
 
 .ncb{
-  color: #d08770;
+  color:#d08770 ;
   font-size: 150%;
 }
 

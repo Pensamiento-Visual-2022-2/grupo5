@@ -9,23 +9,13 @@
 .titulocentros{
     margin-left: 20px;
     margin-top: 15px;
+    
 }
 
 .circ1{
-    background-color: #f52323;
+    background-color: #ebc5c5;
     position: relative;
-    right: -340px;
-    top: 170px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    z-index: 3;
-}
-
-.circ2{
-    background-color: #f52323;
-    position: relative;
-    right: -1080px;
+    right: -1099px;
     top: -460px;
     width: 15px;
     height: 15px;
@@ -33,11 +23,22 @@
     z-index: 3;
 }
 
-.circ3{
-    background-color: #f52323;
+.circ2{
+    background-color: #ebc5c5;
     position: relative;
-    right: -340px;
-    top: 170px;
+    right: -1075px;
+    top: -440px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circ3{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1050px;
+    top: -410px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -104,6 +105,7 @@ body{
 }
 
 .titulo-2{
+    opacity: 1;
     font-size: 300%;
     color: #d08770;
     margin-bottom: 0px;
@@ -153,8 +155,8 @@ body{
 
 .ANTOFACOLOR path{
     /* CAMBIAR COLOR, SOLAMENTE ESTABA PROBANDO */
-    stroke: #4c566a;
-    fill: #4c566a;
+    stroke: #d08770;
+    fill: #d08770;
 }
 
 .navegacion{
@@ -216,12 +218,12 @@ body{
 }
 
 .navegacion ul{
-    list-style: square;
+    list-style: none;
 }
 
 /* intro.html */
 
-.TITULOS{
+.TITULOS{;
     width: 1000px;
     padding: 100 px;
     font-family: 'Verdana';
@@ -230,6 +232,7 @@ body{
 }
 
 .RegionA{
+    color:#81a1c1;
     font-size: 250%;
     
 
@@ -237,18 +240,18 @@ body{
 }
 
 .CapA{
+    color: #d08770;
     font-size: 100%;
     position: relative;
-    
-    opacity: 0.6;
+    opacity: 1;
 
 
 }
 
 .Centros{
     width: 700px;
-    border: 3px solid white;
-    border-radius: 20px;
+    border: 3px solid #D8DEE9;
+    border-radius: 15px;
     background: #D8DEE9;
     position: relative;
     left: 230px; 
@@ -296,6 +299,7 @@ body{
 }
 
 .pinguinoregion{
+    color:#81a1c1;
     position: relative;
     bottom: 370px;
     left: 233px;
@@ -305,5 +309,6 @@ body{
     position: relative;
     bottom: 380px;
     left: 233px;
+    color: #3b4252;
 }
 
