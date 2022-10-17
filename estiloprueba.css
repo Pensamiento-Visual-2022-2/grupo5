@@ -100,7 +100,7 @@ body{
 .div-mapa{
     width: 1300px;
     position: absolute;
-    left:-520px;
+    left:-200px;
     z-index: 1;
 }
 
@@ -189,7 +189,7 @@ header img{
 }
 
 .div-pinguinos{
-    margin-right: 300px;
+    margin-right: 100px;
     width: 9000px;
     border-radius: 15px 15px 15px 15px;
     position: relative;
@@ -219,7 +219,7 @@ header img{
 .circulo{
     background-color: #3f51b4;
     position: relative;
-    right: -14px;
+    right: -334px;
     top: 1395px;
     width: 15px;
     height: 15px;
@@ -230,7 +230,7 @@ header img{
 .circulito{
     background-color: #9b23b3;
     position: relative;
-    right: -20px;
+    right: -340px;
     top: 1370px;
     width: 15px;
     height: 15px;
@@ -241,7 +241,7 @@ header img{
 .circulito_e{
     background-color: #ccdb3b;
     position: relative;
-    right: -10px;
+    right: -330px;
     top: 1340px;
     width: 15px;
     height: 15px;
@@ -253,7 +253,7 @@ header img{
     /*ARICA*/
     background-color: #f34434;
     position: relative;
-    right: -9px;
+    right: -329px;
     top: 35px;
     width: 15px;
     height: 15px;
@@ -265,7 +265,7 @@ header img{
         /*TARAPACA*/
     background-color: #f34434;
     position: relative;
-    right: 5px;
+    right: -315px;
     top: 60px;
     width: 15px;
     height: 15px;
@@ -277,7 +277,7 @@ header img{
         /*ANTOFA*/
     background-color: #f34434;
     position: relative;
-    right: 35px;
+    right: -285px;
     top: 180px;
     width: 15px;
     height: 15px;
@@ -289,7 +289,7 @@ header img{
         /*ATACAMA*/
     background-color: #f34434;
     position: relative;
-    right: 47px;
+    right: -273px;
     top: 269px;
     width: 15px;
     height: 15px;
@@ -301,7 +301,7 @@ header img{
         /*COQUIMBO*/
     background-color: #f34434;
     position: relative;
-    right: 100px;
+    right: -220px;
     top: 427px;
     width: 15px;
     height: 15px;
@@ -313,7 +313,7 @@ header img{
         /*VALPO*/
     background-color: #f34434;
     position: relative;
-    right: 110px;
+    right: -210px;
     top: 500px;
     width: 15px;
     height: 15px;
@@ -325,7 +325,7 @@ header img{
         /*METROPOLITANA*/
     background-color: #f34434;
     position: relative;
-    right: 100px;
+    right: -220px;
     top: 535px;
     width: 15px;
     height: 15px;
@@ -337,7 +337,7 @@ header img{
         /*OHHIGINS*/
     background-color: #f34434;
     position: relative;
-    right: 158px;
+    right: -162px;
     top: 570px;
     width: 15px;
     height: 15px;
@@ -349,7 +349,7 @@ header img{
         /*MAULE*/
     background-color: #f34434;
     position: relative;
-    right: 190px;
+    right: -130px;
     top: 615px;
     width: 15px;
     height: 15px;
@@ -361,7 +361,7 @@ header img{
         /*ÑUBLE+ BIOBIO*/
     background-color: #f34434;
     position: relative;
-    right: 219px;
+    right: -101px;
     top: 665px;
     width: 15px;
     height: 15px;
@@ -373,7 +373,7 @@ header img{
      /*ÑUBLE+ BIOBIO 2*/
     background-color: #f34434;
     position: relative;
-    right: 255px;
+    right: -65px;
     top: 685px;
     width: 15px;
     height: 15px;
@@ -385,7 +385,7 @@ header img{
      /*ARAUCANIA*/
     background-color: #f34434;
     position: relative;
-    right: 255px;
+    right: -65px;
     top: 743px;
     width: 15px;
     height: 15px;
@@ -397,7 +397,7 @@ header img{
      /*RIOS*/
     background-color: #f34434;
     position: relative;
-    right: 285px;
+    right: -35px;
     top: 785px;
     width: 15px;
     height: 15px;
@@ -409,7 +409,7 @@ header img{
      /*LAGOS*/
     background-color: #f34434;
     position: relative;
-    right: 280px;
+    right: -40px;
     top: 880px;
     width: 15px;
     height: 15px;
@@ -421,7 +421,7 @@ header img{
      /*AYSEN*/
     background-color: #f34434;
     position: relative;
-    right: 305px;
+    right: -15px;
     top: 995px;
     width: 15px;
     height: 15px;
@@ -432,7 +432,7 @@ header img{
 .circulito_mac{
     background-color: #4cab53;
     position: relative;
-    right: 200px;
+    right: -120px;
     top: 1370px;
     width: 15px;
     height: 15px;
@@ -444,7 +444,7 @@ header img{
     /*MAGALLANES EN MAGALLANES*/
     background-color: #fb9a04;
     position: relative;
-    right: 250px;
+    right: -70px;
     top: 1382px;
     width: 15px;
     height: 15px;
@@ -456,7 +456,7 @@ header img{
     /* ARICA*/
     background-color: #fb9a04;
     position: relative;
-    right: 265px;
+    right: -55px;
     top: 25px;
     width: 15px;
     height: 15px;
@@ -468,7 +468,7 @@ header img{
     /* ANTOFA*/
     background-color: #fb9a04;
     position: relative;
-    right: 280px;
+    right: -40px;
     top: 170px;
     width: 15px;
     height: 15px;
@@ -480,7 +480,7 @@ header img{
     /* ANTOFA*/
     background-color: #fb9a04;
     position: relative;
-    right: 305px;
+    right: -15px;
     top: 256px;
     width: 15px;
     height: 15px;
@@ -492,7 +492,7 @@ header img{
     /* ATACAMA 1*/
     background-color: #fb9a04;
     position: relative;
-    right: 345px;
+    right: 25px;
     top: 370px;
     width: 15px;
     height: 15px;
@@ -504,7 +504,7 @@ header img{
     /* ATACAMA 2*/
     background-color: #fb9a04;
     position: relative;
-    right: 340px;
+    right: 20px;
     top: 280px;
     width: 15px;
     height: 15px;
@@ -516,7 +516,7 @@ header img{
     /* COQU 1*/
     background-color: #fb9a04;
     position: relative;
-    right: 380px;
+    right: 60px;
     top: 417px;
     width: 15px;
     height: 15px;
@@ -528,7 +528,7 @@ header img{
     /* VALPO 1*/
     background-color: #fb9a04;
     position: relative;
-    right: 395px;
+    right: 75px;
     top: 490px;
     width: 15px;
     height: 15px;
@@ -540,7 +540,7 @@ header img{
     /* VALPO 2*/
     background-color: #fb9a04;
     position: relative;
-    right: 415px;
+    right: 95px;
     top: 518px;
     width: 15px;
     height: 15px;
@@ -552,7 +552,7 @@ header img{
         /* OHHIGNIS*/
     background-color: #fb9a04;
     position: relative;
-    right: 439px;
+    right: 119px;
     top: 555px;
     width: 15px;
     height: 15px;
@@ -564,7 +564,7 @@ header img{
         /* MAULE*/
     background-color: #fb9a04;
     position: relative;
-    right: 475px;
+    right: 155px;
     top: 605px;
     width: 15px;
     height: 15px;
@@ -576,7 +576,7 @@ header img{
         /* ÑUBLE (bIOBIO PQ NO ESTA ÑUBLE*/
     background-color: #fb9a04;
     position: relative;
-    right: 510px;
+    right: 190px;
     top: 650px;
     width: 15px;
     height: 15px;
@@ -588,7 +588,7 @@ header img{
         /* BIOBIO*/
     background-color: #fb9a04;
     position: relative;
-    right: 540px;
+    right: 220px;
     top: 675px;
     width: 15px;
     height: 15px;
@@ -600,7 +600,7 @@ header img{
         /* ARAUCANIA*/
     background-color: #fb9a04;
     position: relative;
-    right: 550px;
+    right: 230px;
     top: 727px;
     width: 15px;
     height: 15px;
@@ -613,7 +613,7 @@ header img{
     /* ARAUCANIA*/
 background-color: #fb9a04;
 position: relative;
-right: 560px;
+right: 240px;
 top: 750px;
 width: 15px;
 height: 15px;
@@ -626,7 +626,7 @@ z-index: 3;
     /* LOS RIOS*/
 background-color: #fb9a04;
 position: relative;
-right: 585px;
+right: 265px;
 top: 775px;
 width: 15px;
 height: 15px;
@@ -639,7 +639,7 @@ z-index: 3;
     /* LOS LAGOS*/
 background-color: #fb9a04;
 position: relative;
-right: 620px;
+right: 300px;
 top: 860px;
 width: 15px;
 height: 15px;
@@ -652,7 +652,7 @@ z-index: 3;
     /* AYSEN*/
 background-color: #fb9a04;
 position: relative;
-right: 620px;
+right: 300px;
 top: 1005px;
 width: 15px;
 height: 15px;
@@ -667,7 +667,7 @@ z-index: 3;
 .circulito_pa{
     background-color: #089386;
     position: relative;
-    right: 500px;
+    right: 180px;
     top: 1330px;
     width: 15px;
     height: 15px;
@@ -679,7 +679,7 @@ z-index: 3;
      /*COQUIMB0*/
     background-color: #04bbd3;
     position: relative;
-    right: 580px;
+    right: 259px;
     top: 360px;
     width: 15px;
     height: 15px;
@@ -691,7 +691,7 @@ z-index: 3;
      /*VALPO*/
     background-color: #04bbd3;
     position: relative;
-    right: 600px;
+    right: 280px;
     top: 485px;
     width: 15px;
     height: 15px;
@@ -703,7 +703,7 @@ z-index: 3;
      /*LAGOS*/
     background-color: #04bbd3;
     position: relative;
-    right: 660px;
+    right: 340px;
     top: 900px;
     width: 15px;
     height: 15px;
@@ -715,7 +715,7 @@ z-index: 3;
      /* AYSEN*/
     background-color: #04bbd3;
     position: relative;
-    right: 690px;
+    right: 370px;
     top: 985px;
     width: 15px;
     height: 15px;
@@ -727,7 +727,7 @@ z-index: 3;
      /* MAGALLANES*/
     background-color: #04bbd3;
     position: relative;
-    right: 650px;
+    right: 330px;
     top: 1397px;
     width: 15px;
     height: 15px;
@@ -740,7 +740,7 @@ z-index: 3;
      /*VALPO*/
     background-color: #fbeb3c;
     position: relative;
-    right: 670px;
+    right: 350px;
     top: 510px;
     width: 15px;
     height: 15px;
@@ -752,7 +752,7 @@ z-index: 3;
      /*OHIGGINS*/
     background-color: #fbeb3c;
     position: relative;
-    right: 700px;
+    right: 380px;
     top: 565px;
     width: 15px;
     height: 15px;
@@ -764,7 +764,7 @@ z-index: 3;
      /* MAULE*/
     background-color: #fbeb3c;
     position: relative;
-    right: 725px;
+    right: 405px;
     top: 595px;
     width: 15px;
     height: 15px;
@@ -777,7 +777,7 @@ z-index: 3;
      /*MAGALLANES*/
     background-color: #fbeb3c;
     position: relative;
-    right: 700px;
+    right: 380px;
     top: 1400px;
     width: 15px;
     height: 15px;

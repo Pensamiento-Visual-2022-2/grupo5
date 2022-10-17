@@ -35,7 +35,7 @@ body{
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
   border: 15px 15px;
-  font-size: 150%;
+  font-size: 100%;
   width: 500px;
   color: #3b4252;
 }
@@ -45,14 +45,19 @@ body{
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
   border: 15px 15px;
-  font-size: 150%;
+  font-size: 100%;
   width: 500px;
   color: #3b4252;
   
 }
 
+#infob2 img {
+  width: 250px;
+  border-radius: 50%;
+}
+
 #imgb2 img {
-  width: 300px;
+  width: px;
   border-radius: 50%;
 }
 
