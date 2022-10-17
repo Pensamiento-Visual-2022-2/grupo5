@@ -6,18 +6,42 @@ body{
   background: #eceff4;
   font-family: Arial, Helvetica, sans-serif;
   float: right;
-  margin: 10px 10px;
+  
   width: 95%;
   
 }
 
+.flexb{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.flexb div{
+  width: 500px;
+  margin: 10px;
+}
 
 #imgb1 img{
   border-radius: 15px;
   position: relative;
-  top: -20px;
-  width: 570px;
-  margin: 20px;
+  top: -70px;
+  width: 700px;
+  left: 30px;
+  
+}
+.rueda-imagenes{
+.rueda-imagenes{
+  width: 25%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.rueda-imagenes ul {
+  display: flex;
+  padding: 0;
+  width: 200%;
+  animation: cambio 20s infinite;
 }
 
 .nb{font-size: 450%;
@@ -31,11 +55,11 @@ body{
 
 #infob1{
   float:left;
-  background-color: #D8DEE9;
+  /* background-color: #D8DEE9; */
   border-radius: 15px;
-  padding: 15px 15px 15px 15px;
-  border: 15px 15px;
-  font-size: 100%;
+  /* padding: 15px 15px 15px 15px; */
+  line-height: 1px;
+  font-size: 150%;
   width: 500px;
   color: #3b4252;
 }
@@ -44,11 +68,13 @@ body{
   background-color: #D8DEE9;
   border-radius: 15px;
   padding: 15px 15px 15px 15px;
-  border: 15px 15px;
-  font-size: 100%;
+  
+  font-size: 120%;
   width: 500px;
   color: #3b4252;
-  
+  position: relative;
+  top:-80px;
+
 }
 
 #infob2 img {
@@ -56,9 +82,20 @@ body{
   border-radius: 50%;
 }
 
-#imgb2 img {
+/* #imgb2 img {
   width: 150px;
   border-radius: 50%;
+} */
+
+#infob3{
+  background-color: #D8DEE9;
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  
+  font-size: 120%;
+  width: 500px;
+  color: #3b4252;
+  position: relative;
+  left:560px;
+  top: -310px;
 }
-
-
