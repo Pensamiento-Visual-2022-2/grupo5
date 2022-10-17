@@ -16,7 +16,7 @@
     background-color: #ebc5c5;
     position: relative;
     right: -1099px;
-    top: -460px;
+    top: -470px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -274,7 +274,7 @@ body{
 
 
 .pinguins{
-    top: 5px;
+    top: 50px;
     width: 1000px;
     border-radius: 15px;
     position: relative;
