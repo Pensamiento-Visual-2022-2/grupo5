@@ -51,40 +51,40 @@ datos.innerHTML = nombres[1]
 
 var epoca_pinguinos = [
     {
-        pinguino:"Magallanes",
-        epoca: [1,2,3,4],
+        pinguino: "Magallanes",
+        epoca: [1, 2, 3, 4],
     },
     {
-        pinguino:"Humboldt",
-        epoca: [1,2,3,4],
+        pinguino: "Humboldt",
+        epoca: [1, 2, 3, 4],
     },
     {
-        pinguino:"Rey",
-        epoca: [1,2,3,4],
+        pinguino: "Rey",
+        epoca: [1, 2, 3, 4],
     },
     {
-        pinguino:"Emperador",
+        pinguino: "Emperador",
         epoca: [2],
     },
     {
-        pinguino:"Macaroni",
-        epoca: [1,4],
+        pinguino: "Macaroni",
+        epoca: [1, 4],
     },
     {
-        pinguino:"Penacho Amarillo",
-        epoca: [1,4],
+        pinguino: "Penacho Amarillo",
+        epoca: [1, 4],
     },
     {
-        pinguino:"Papua",
-        epoca: [1,4],
+        pinguino: "Papua",
+        epoca: [1, 4],
     },
     {
-        pinguino:"Adelia",
-        epoca: [1,2],
+        pinguino: "Adelia",
+        epoca: [1, 2],
     },
     {
-        pinguino:"Barbijo",
-        epoca: [1,2,3],
+        pinguino: "Barbijo",
+        epoca: [1, 2, 3],
     },
 ];
 
@@ -138,7 +138,7 @@ var regiones_json = [
         capital: "Santiago",
         pinguino: ["Humboldt"],
         centro: ["Zoológico Metropolitano de Santiago", "Buinzoo"],
-        link: ["https://goo.gl/maps/1QoWrnQ6nnpcNdhHA","https://goo.gl/maps/AUjbNK9KQZPEdN6Z9"],
+        link: ["https://goo.gl/maps/1QoWrnQ6nnpcNdhHA", "https://goo.gl/maps/AUjbNK9KQZPEdN6Z9"],
     },
     {
         nombre: "Región del Libertador General Bernardo Ohiggins",
@@ -170,7 +170,7 @@ var regiones_json = [
     },
     {
         nombre: "Región de la Araucanía",
-        capital: "Temuco",
+        capital: "Temuco";
         pinguino: ["Magallanes", "Humboldt"],
         centro: ["Isla de Maiquillahue", "Desembocadura Rio Toltén"],
         link: ["https://goo.gl/maps/apbgHbB4EQWcXRQ26", "https://goo.gl/maps/x8N1NmEftWD8bEERA"],
@@ -180,7 +180,7 @@ var regiones_json = [
         capital: "Valdivia",
         pinguino: ["Magallanes", "Humboldt"],
         centro: ["Isla de Maiquillahue"],
-        link: ["https://goo.gl/maps/apbgHbB4EQWcXRQ26", ],
+        link: ["https://goo.gl/maps/apbgHbB4EQWcXRQ26",],
     },
     {
         nombre: "Región de los Lagos",
@@ -193,7 +193,7 @@ var regiones_json = [
         nombre: "Región de Aysén",
         capital: "Coyhaique",
         pinguino: ["Magallanes", "Humboldt", "Penacho Amarillo"],
-        centro: ["Parque Nacional Isla Magdalena", "Islas Las Huichas", ],
+        centro: ["Parque Nacional Isla Magdalena", "Islas Las Huichas",],
         link: ["https://goo.gl/maps/scXJ4GCf2V8qnHVR9", "https://goo.gl/maps/pdxU8xiHXWU8MCeJ8"],
     },
     {
@@ -203,11 +203,11 @@ var regiones_json = [
         centro: ["Monumento Natural de los pingüinos", "Seno Otway", "Isla Martillo", "Archipiélago Tierra del Fuego", "Bahía Inütil", "Isla del Pingüino"],
         link: ["https://g.page/mnlospinguinos?share", "https://goo.gl/maps/fqUmwQw9uVCY8HkD6", "https://goo.gl/maps/s7B34RjHAJjhytjV9", "https://goo.gl/maps/Rf6fLUWwfxwhwyDHA", "https://goo.gl/maps/aMpmcnqkTUYEitjq6", "https://goo.gl/maps/3G59NfrNtK4W14m18"],
     },
-    
+
 ];
 
 /*VERANO*/
-function cambiar(){
+function cambiar() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
     document.getElementById("holass2").classList.remove("Pinguinoss");
@@ -268,7 +268,7 @@ function cambiar(){
 
 };
 /*OTOÑO*/
-function cambiar2(){
+function cambiar2() {
     document.getElementById("holass").classList.remove("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -329,7 +329,7 @@ function cambiar2(){
 
 };
 /*INVIERNO*/
-function cambiar3(){
+function cambiar3() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -391,7 +391,7 @@ function cambiar3(){
 };
 
 /*Primavera*/
-function cambiar4(){
+function cambiar4() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
     document.getElementById("holass2").classList.remove("Pinguinoss");
@@ -453,24 +453,24 @@ function cambiar4(){
 };
 
 
-document.getElementById("prueba").onclick = function (){
+document.getElementById("prueba").onclick = function () {
     cambiar();
 };
 
-document.getElementById("prueba2").onclick = function (){
+document.getElementById("prueba2").onclick = function () {
     cambiar2();
 };
 
-document.getElementById("prueba1").onclick = function (){
+document.getElementById("prueba1").onclick = function () {
     cambiar3();
 };
 
-document.getElementById("prueba0").onclick = function (){
+document.getElementById("prueba0").onclick = function () {
     cambiar4();
 };
 
 /*Barbijo*/
-function cambiar5(){
+function cambiar5() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -530,12 +530,12 @@ function cambiar5(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button1").onclick = function (){
+document.getElementById("button1").onclick = function () {
     cambiar5();
 };
 
 /*Emperador*/
-function cambiar6(){
+function cambiar6() {
     document.getElementById("holass").classList.remove("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -595,13 +595,13 @@ function cambiar6(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button2").onclick = function (){
+document.getElementById("button2").onclick = function () {
     cambiar6();
 };
 
 
 /*Macaroni*/
-function cambiar7(){
+function cambiar7() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -661,13 +661,13 @@ function cambiar7(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button3").onclick = function (){
+document.getElementById("button3").onclick = function () {
     cambiar7();
 };
 
 
 /*Rey*/
-function cambiar8(){
+function cambiar8() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -727,12 +727,12 @@ function cambiar8(){
     document.getElementById("rey4").classList.remove("desaparecer");
 };
 
-document.getElementById("button4").onclick = function (){
+document.getElementById("button4").onclick = function () {
     cambiar8();
 };
 
 /*Penacho*/
-function cambiar9(){
+function cambiar9() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -792,13 +792,13 @@ function cambiar9(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button5").onclick = function (){
+document.getElementById("button5").onclick = function () {
     cambiar9();
 };
 
 
 /*Papua*/
-function cambiar10(){
+function cambiar10() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.remove("Pinguinoss");
@@ -858,13 +858,13 @@ function cambiar10(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button6").onclick = function (){
+document.getElementById("button6").onclick = function () {
     cambiar10();
 };
 
 
 /*Adelia*/
-function cambiar11(){
+function cambiar11() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -924,13 +924,13 @@ function cambiar11(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button7").onclick = function (){
+document.getElementById("button7").onclick = function () {
     cambiar11();
 };
 
 
 /*Magallanes*/
-function cambiar12(){
+function cambiar12() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.add("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -990,13 +990,13 @@ function cambiar12(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button8").onclick = function (){
+document.getElementById("button8").onclick = function () {
     cambiar12();
 };
 
 
 /*Humboldt*/
-function cambiar13(){
+function cambiar13() {
     document.getElementById("holass").classList.add("Pinguinoss");
     document.getElementById("holass1").classList.remove("Pinguinoss");
     document.getElementById("holass2").classList.add("Pinguinoss");
@@ -1056,6 +1056,6 @@ function cambiar13(){
     document.getElementById("rey4").classList.add("desaparecer");
 };
 
-document.getElementById("button9").onclick = function (){
+document.getElementById("button9").onclick = function () {
     cambiar13();
 };

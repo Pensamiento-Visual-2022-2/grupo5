@@ -15,7 +15,7 @@
     background-color: #ebc5c5;
     position: relative;
     right: -1079px;
-    top: -283px;
+    top: -253px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -26,7 +26,7 @@
     background-color: #ebc5c5;
     position: relative;
     right: -1055px;
-    top: -270px;
+    top: -240px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -37,7 +37,7 @@
     background-color: #ebc5c5;
     position: relative;
     right: -1030px;
-    top: -260px;
+    top: -230px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -278,7 +278,7 @@ body{
     border-radius: 15px;
     position: relative;
     left: 400px;
-    top: 80px;
+    top: 40px;
     z-index: 2;
 }
 
@@ -301,13 +301,13 @@ body{
 .pinguinoregion{
     color:#81a1c1;
     position: relative;
-    bottom: 370px;
+    bottom: 290px;
     left: 233px;
 }
 
 .descripcion{
     position: relative;
-    bottom: 380px;
+    bottom: 480px;
     left: 233px;
     color: #3b4252;
 }

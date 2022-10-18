@@ -255,7 +255,7 @@ body{
     background: #D8DEE9;
     position: relative;
     left: 230px; 
-    top: 430px; 
+    top: 600px; 
     color: #3b4252;
 
 }
@@ -274,12 +274,12 @@ body{
 
 
 .pinguins{
-    top: 5px;
+    
     width: 1000px;
     border-radius: 15px;
     position: relative;
     left: 400px;
-    bottom: 10px;
+    top: 120px;
     z-index: 2;
 }
 
@@ -302,13 +302,13 @@ body{
 .pinguinoregion{
     color:#81a1c1;
     position: relative;
-    bottom: 370px;
+    bottom: 260px;
     left: 233px;
 }
 
 .descripcion{
     position: relative;
-    bottom: 380px;
+    bottom: 430px;
     left: 233px;
     color: #3b4252;
 }

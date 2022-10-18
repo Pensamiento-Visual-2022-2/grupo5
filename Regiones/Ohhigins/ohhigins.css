@@ -14,8 +14,8 @@
 .circ1{
     background-color: #ebc5c5;
     position: relative;
-    right: -1099px;
-    top: -460px;
+    right: -1070px;
+    top: -178px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -25,8 +25,8 @@
 .circ2{
     background-color: #ebc5c5;
     position: relative;
-    right: -1075px;
-    top: -440px;
+    right: -1050px;
+    top: -187px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -273,7 +273,7 @@ body{
 
 
 .pinguins{
-    top: 5px;
+    top: 40px;
     width: 1000px;
     border-radius: 15px;
     position: relative;
