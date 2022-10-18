@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'HelveticaNeue1';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/HelveticaNeue_1.ttc);
+}
+
+.titulocentros{
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+.circ1{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1099px;
+    top: -460px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circ2{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1075px;
+    top: -440px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circ3{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1050px;
+    top: -410px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+body{
+    font-family: 'Verdana';
+    margin: auto;
+    background-color: #eceff4;
+    /*text-align: center; */
+}
+
+/* Index.html */
+.container-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 500%;
+    color: #81a1c1;
+    margin-bottom: 0px;
+}
+
+.imageninicio{
+    top: 5px;
+    width: 1000px;
+    left: 174px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.rueda-imagenes{
+    width: 25%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.rueda-imagenes ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: cambio 20s infinite;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    40% {margin-left: 0%;}
+
+    50% {margin-left: -100%;}
+    90% {margin-left: -100%;}
+}
+
+.rueda-imagenes li{
+    width: 100%;
+    list-style: none;
+}
+
+.rueda-imagenes img {
+    width: 100%;
+}
+
+.titulo-2{
+    opacity: 1;
+    font-size: 300%;
+    color: #d08770;
+    margin-bottom: 0px;
+    
+}
+
+.palito{
+    height: 5px;
+    width: 200px;
+    background-color: #d08770;
+    margin-bottom: 50px;
+}
+
+.texto-index{
+    font-size: 200%;
+    width: 70%;
+    color: #3b4252;
+}
+
+.boton-index{
+    height: 200px;
+    width: 400px;
+}
+
+
+/* Chile.html */
+
+.div-mapa{
+    margin: auto;
+    width: 750px;
+    height: 150px;
+    position: relative;
+    right:-125px;
+    top:-605px;
+    z-index: -1;
+}
+
+.div-mapa path {
+    fill: #D8DEE9;
+    stroke: #88c0d0;
+    stroke-width: 2px;
+}
+
+.div-mapa :hover {
+    fill: #4c566a;
+}
+
+.ANTOFACOLOR path{
+    /* CAMBIAR COLOR, SOLAMENTE ESTABA PROBANDO */
+    stroke: #d08770;
+    fill: #d08770;
+}
+
+.navegacion{
+    width: 1000px;
+    text-align: center;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 15px;
+}
+
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    
+
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: "Verdana";
+    
+}
+
+.menu li a:hover{
+    color: #e5e9f0;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #5e81ac;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    list-style-type: none;
+    transition: opacity 1.5s;
+    
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    list-style: none;
+    font-family: 'Verdana';
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+
+
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+/* intro.html */
+
+.TITULOS{;
+    width: 1000px;
+    padding: 100 px;
+    font-family: 'Verdana';
+    position: relative;
+    left: 230px;
+}
+
+.RegionA{
+    color:#81a1c1;
+    font-size: 250%;
+    
+
+
+}
+
+.CapA{
+    color: #d08770;
+    font-size: 100%;
+    position: relative;
+    opacity: 1;
+
+
+}
+
+.Centros{
+    width: 700px;
+    border: 3px solid #D8DEE9;
+    border-radius: 15px;
+    background: #D8DEE9;
+    position: relative;
+    left: 230px; 
+    top: 430px; 
+    color: #3b4252;
+
+}
+
+
+.Centros ul li{
+    left: 10px;
+
+   
+}
+
+
+.navegacion ul{
+    list-style: circle;
+}
+
+
+.pinguins{
+    top: 5px;
+    width: 1000px;
+    border-radius: 15px;
+    position: relative;
+    left: 400px;
+    bottom: 10px;
+    z-index: 2;
+}
+
+.pinguins img {
+    /* transform: scale(1.15); */
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 70px;
+}
+
+.pinguins a:hover img {
+    transform: scale(1.15);
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.zoom1{
+    border-radius: 15px 15px 15px 15px;
+}
+
+.pinguinoregion{
+    color:#81a1c1;
+    position: relative;
+    bottom: 370px;
+    left: 233px;
+}
+
+.descripcion{
+    position: relative;
+    bottom: 380px;
+    left: 233px;
+    color: #3b4252;
+}
