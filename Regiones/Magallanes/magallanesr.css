@@ -45,6 +45,39 @@
     z-index: 3;
 }
 
+.circ4{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1050px;
+    top: -410px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circ5{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1050px;
+    top: -410px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circ6{
+    background-color: #ebc5c5;
+    position: relative;
+    right: -1050px;
+    top: -410px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
 body{
     font-family: 'Verdana';
     margin: auto;
@@ -138,8 +171,8 @@ body{
     width: 750px;
     height: 150px;
     position: relative;
-    right:-125px;
-    top:-605px;
+    right:-200px;
+    top:-905px;
     z-index: -1;
 }
 
@@ -255,7 +288,7 @@ body{
     background: #D8DEE9;
     position: relative;
     left: 230px; 
-    top: 430px; 
+    top: 700px; 
     color: #3b4252;
 
 }
@@ -286,7 +319,10 @@ body{
 .pinguins img {
     /* transform: scale(1.15); */
     border-radius: 15px 15px 15px 15px;
-    margin-left: 70px;
+    margin-left: 60px;
+    position: relative;
+    top: -50px;
+    left: -234px;
 }
 
 .pinguins a:hover img {
@@ -302,13 +338,13 @@ body{
 .pinguinoregion{
     color:#81a1c1;
     position: relative;
-    bottom: 370px;
+    bottom: 650px;
     left: 233px;
 }
 
 .descripcion{
     position: relative;
-    bottom: 380px;
+    top: -770px;
     left: 233px;
     color: #3b4252;
 }

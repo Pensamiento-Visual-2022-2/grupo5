@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background: #eceff4;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    
+    width: 95%;
+    
+  }
+  
+  .flexb{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .flexb div{
+    width: 500px;
+    margin: 10px;
+  }
+  
+  #imgb1 img{
+    border-radius: 15px;
+    position: relative;
+    top: -70px;
+    width: 700px;
+    left: 30px;
+    
+  }
+  
+  .rueda-imagenes{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -240px;
+  }
+  
+  .rueda-imagenes ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+  
+    animation: cambio 10s infinite;
+  }
+  
+  @keyframes cambio {
+    0% {margin-left: 0%;}
+    40% {margin-left: 0%;}
+  
+    50% {margin-left: -100%;}
+    90% {margin-left: -100%;}
+  }
+  
+  .rueda-imagenes li{
+    width: 100%;
+    list-style: none;
+  }
+  
+  .rueda-imagenes img {
+    width: 100%;
+  }
+  
+  .nb{font-size: 450%;
+    color: #81a1c1;
+    margin-bottom: 0px;}
+  
+  .ncb{
+    color:#d08770 ;
+    font-size: 150%;
+  }
+  
+  #infob1{
+    float:left;
+    /* background-color: #D8DEE9; */
+    border-radius: 15px;
+    /* padding: 15px 15px 15px 15px; */
+    line-height: 1px;
+    font-size: 150%;
+    width: 500px;
+    color: #3b4252;
+  }
+    
+  #infob2{
+    background-color: #D8DEE9;
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+    
+    font-size: 120%;
+    width: 500px;
+    color: #3b4252;
+    position: relative;
+    top:-80px;
+  
+  }
+  
+  #infob2 img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* #imgb2 img {
+    width: 150px;
+    border-radius: 50%;
+  } */
+  
+  #infob3{
+    background-color: #D8DEE9;
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+    
+    font-size: 120%;
+    width: 500px;
+    color: #3b4252;
+    position: relative;
+    left:560px;
+    top: -310px;
+  }
